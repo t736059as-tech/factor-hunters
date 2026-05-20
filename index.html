@@ -95,7 +95,18 @@ margin-top:16px;
 </head>
 
 <body>
+<div id="loginBox" class="card">
+  <h2>🧑‍🎓 ハンター登録</h2>
+  <p>最初に名前を登録しよう！</p>
+  <input id="studentName" placeholder="名前を入力">
+  <button class="green" onclick="login()">登録して始める</button>
+</div>
 
+<div id="playerStatus" style="display:none;text-align:center;margin:20px;">
+  <span id="playerName"></span>
+  <span id="playerXp"></span>
+  <span id="playerLevel"></span>
+</div>
 <div class="app">
 
 <div class="title">
